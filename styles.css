@@ -1,0 +1,93 @@
+/*
+
+COLORS
+#504658
+#f0decb
+#ffb5b5
+#ce2e6c
+ */
+
+body{
+  background-color: #504658;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  margin-top: -1%;
+  font-family: 'Homemade Apple', cursive;
+  padding-top: 2%;
+  font-size: 4rem;
+  color: #f0decb;
+}
+
+p, a{
+  font-family: 'Quicksand', sans-serif;
+  color: #f0decb;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ce2e6c;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+button:focus, textarea:focus {
+    outline: none;
+}
+
+.nameInput{
+  text-align: center;
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  font-family: 'Homemade Apple', cursive;
+  color: #504658;
+  width: 15rem;
+  height: 2rem;
+  margin: 0 3rem;
+  background-color: #ffb5b5;
+  border: none;
+}
+
+.yourName{
+  display: inline-block;
+}
+.crushName{
+  display: inline-block;
+}
+
+.submit-btn{
+  font-family: 'Quicksand', sans-serif;
+  color: #f0decb;
+  border: 0 none;
+  font-size: 1.5rem;
+  background-color: #ce2e6c;
+  width: 10rem;
+  padding: 20px;
+  margin: 1.5rem auto;
+  box-shadow: 5px 10px #888888;
+}
+
+.submit-btn:hover{
+  background-color:#ffb5b5;
+  color: #504658;
+}
+
+.results{
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #504658;
+  padding: 5%;
+  margin: -4% auto;
+  width: 30%;
+  height: 80px;
+  background-color: #ffb5b5;
+}
+
+footer{
+  padding: 2%;
+  margin: 5% auto 0 auto;
+}
